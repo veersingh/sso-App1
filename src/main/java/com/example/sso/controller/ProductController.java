@@ -23,7 +23,7 @@ class ProductController {
 	public String getProducts(Principal principal, Model model, HttpServletRequest request) {
 		
 
-		 List<String> products = Arrays.asList("iPad", "iPhone", "iPod");
+		 List<String> products = Arrays.asList("iPhone7s", "Apple Watch", "macOS","Keynote");
 		model.addAttribute("principal", principal);
 		 model.addAttribute("products", products);
 		return "products";
